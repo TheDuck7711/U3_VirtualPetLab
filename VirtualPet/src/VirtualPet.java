@@ -4,7 +4,7 @@ public class VirtualPet {
     private String petName;
     private int energy;
     private int happiness;
-    private int weight;
+    private int weight =5;
     private int ageYears;
     private int ageMonths;
 
@@ -28,7 +28,7 @@ public class VirtualPet {
         if(weight>5){
             weight--;
         }
-        if(energy<10){
+        if(happiness<10){
             happiness++;
         }
     }
